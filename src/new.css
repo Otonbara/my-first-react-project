@@ -1,0 +1,19 @@
+.blog-preview {
+    margin: 20px 30px;
+    padding: 20px;
+    border: 1px inset #453f2f;
+    background-color: #ccc;
+    box-shadow: 10px 10px 20px rgb(20, 0, 0);
+}
+
+.blog-preview:hover {
+    transform: translateY(-5px);
+}
+
+.blog-preview:hover:nth-child(2) {
+    transform: translateX(5px);
+}
+
+.blog-preview:hover:nth-child(3) {
+    transform: translateX(-5px);
+}
